@@ -1,39 +1,62 @@
 #!/usr/bin/env python
 
+import os
 from time import sleep 
 
+os.system('clear')
 print("R")
 print(" O")
-print("  T")
+print("  T", flush=True)
 
+sleep(0.5)
 
-
-
+os.system('clear')
 print(" R")
 print(" O")
-print(" T")
+print(" T", flush=True)
 
+sleep(0.5)
+
+os.system('clear')
 print("  R")
 print(" O")
-print("T")
+print("T", flush=True)
 
+sleep(0.5)
+
+os.system('clear')
 print()
-print("TOR")
+print("T O R", flush=True)
 
 
+sleep(0.5)
+
+os.system('clear')
 print("T")
 print(" O")
-print("  R")
+print("  R", flush=True)
 
+sleep(0.5)
 
+os.system('clear')
 print(" T")
 print(" O")
-print(" R")
+print(" R", flush=True)
 
+sleep(0.5)
+
+os.system('clear')
 print("  T")
 print(" O")
-print("R")
+print("R", flush=True)
 
+sleep(0.5)
+
+os.system('clear')
 print()
-print("ROT")
+print("R O T", flush=True)
+
+sleep(0.5)
+
+input("Press <ENTER> to continue...")
 
