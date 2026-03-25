@@ -46,3 +46,19 @@
 - Pieredzējuši kolēģi [^1.]
 
 ## Programmēšanas tehnoloģijas
+
+C
+: efektīva programmēšanas valoda, saistīta ar datora aparatūru.[^4]
+
+C++
+: starpplatformu programmēšanas valoda, balstīta uz C.[^5]
+
+UNIX
+: Pārnesama, daudzuzdevumu, daudzlietotāju operētājsistēma.[^6]
+
+LINUX
+: UNIX tipa operātorsistēmas kodols.[^7]
+
+## Secinājumi
+
+### Lai strādātu šajā darba vietā, man vēl ir daudz jāmācās.
