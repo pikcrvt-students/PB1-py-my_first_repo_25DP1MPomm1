@@ -7,21 +7,15 @@ import os
 print("Datorspēle - Akmens, Šķēres, Papīrīts")
 sleep(1)
 
-def clear():
-  os.system('cls' if os.name=='nt' else 'clear')
-clear()
+os.system('cls')
 
 player1_choice = str(input("Spēlētājs 1. izvēlies: akmens, šķēres vai papīrs: "))
 
-def clear():
-  os.system('cls' if os.name=='nt' else 'clear')
-clear()
+os.system('cls')
 
 player2_choice = str(input("Spēlētājs 2. izvēlies: akmens, šķēres vai papīrs: "))
 
-def clear():
-  os.system('cls' if os.name=='nt' else 'clear')
-clear()
+os.system('cls')
 
 for atkartosanas_skaits in range(4):
     print('  bq', end="\r")
@@ -37,14 +31,62 @@ if player1_choice == player2_choice:
     print("Neizšķirts!")
 elif player1_choice =="akmens" and player2_choice =="šķēres":
     print("Spēlētājs 1. uzverējā")
+    print('   ______   ')
+    print('  /      \\   ')
+    print(' |    1.  | ')
+    print('  \\_    _/  ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('   /____\\  ')
 elif player1_choice =="šķēres" and player2_choice =="papīrs":
     print("Spēlētājs 1. uzverējā")
+    print('   ______   ')
+    print('  /      \\   ')
+    print(' |    1.  | ')
+    print('  \\_    _/  ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('   /____\\  ')
 elif player1_choice =="papīrs" and player2_choice =="akmens":
     print("Spēlētājs 1. uzverējā")
+    print('   ______   ')
+    print('  /      \\   ')
+    print(' |    1.  | ')
+    print('  \\_    _/  ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('   /____\\  ')
 elif player2_choice =="akmens" and player1_choice =="šķēres":
     print("Spēlētājs 2. uzverējā")
+    print('   ______   ')
+    print('  /      \\   ')
+    print(' |    2.  | ')
+    print('  \\_    _/  ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('   /____\\  ')
 elif player2_choice =="šķēres" and player1_choice =="papīrs":
     print("Spēlētājs 2. uzverējā")
+    print('   ______   ')
+    print('  /      \\   ')
+    print(' |    2.  | ')
+    print('  \\_    _/  ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('   /____\\  ')
 elif player2_choice =="papīrs" and player1_choice =="akmens":
     print("Spēlētājs 2. uzverējā")
+    print('   ______   ')
+    print('  /      \\   ')
+    print(' |    2.  | ')
+    print('  \\_    _/  ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('    |  |    ')
+    print('   /____\\  ')
 
