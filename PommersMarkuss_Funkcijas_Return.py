@@ -6,5 +6,8 @@ def maximum(x, y):
     else:
         return y
 
-skaitlis = maximum(2, 3)
-print(skaitlis)
+skaitlis1 = int(input("Ievadiet pirmo skaitli: "))
+skaitlis2 = int(unput('Ievadiet otro skaitlis: '))
+
+lielakais = maximum(skaitlis1, skaitlis2)
+print(lielakais)
